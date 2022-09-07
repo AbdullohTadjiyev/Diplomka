@@ -9,3 +9,228 @@
     width: 100%;
     height: 100vh;
 }
+.container .navbar {
+    width: 100%;
+    height:90px;
+    display: flex;
+    background-color: #fff;
+}
+.container .navbar .left {
+    width: 50%;
+    height: 100%;
+
+}
+.container .navbar .right {
+    width: 50%;
+    height: 100%;
+    position: relative;
+}
+.container .navbar .left ul {
+    display: flex;
+    padding-top: 25px;
+    gap: 30px;
+    padding-left: 50px;
+    align-items: center;
+}
+.container .navbar .right ul {
+    display: flex;
+    padding-top: 30px;
+    gap: 30px;
+    align-items: center;
+}
+.container .navbar .right ul li a {
+    color: #000;
+    font-size: 17px;
+    font-weight: 400;
+    font-family: 'Manrope', sans-serif;
+}
+.container .navbar .left .one {
+    font-size: 16px;
+    font-weight: 400;
+    color: #000;
+}
+.container .navbar .right .one {
+    font-size: 17px;
+    font-weight: 400;
+    color: #5C8692;
+}
+.container .navbar .right .word {
+    position: absolute;
+    font-size: 17px;
+    font-weight: 400;
+    color: white;
+    right:50px;
+    top: 10px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    width: 170px;
+    height: 60px;
+    border: 1px solid transparent;
+    background-color: #5C8692;
+}
+.container .head {
+    width: 100%;
+    height: 885px;
+    background-color: #EBF3F5;
+    display: flex;
+}
+.container .head .left {
+    width: 50%;
+    height: 100%;
+}
+.container .head .right {
+    width: 50%;
+    height: 100%;
+    position: relative;
+}
+.container .head .left .one {
+    font-size: 15px;
+    font-size: 400;
+    font-family: 'Manrope', sans-serif;;
+    padding-left: 120px;
+    padding-top: 219px;
+    color: #5C8692;
+}
+.container .head .left .two {
+    font-size: 55px;
+    font-weight: 400;
+    font-family:  'Playfair Display', serif;;
+    padding-left: 120px;    
+    padding-top: 10px;
+}
+.container .head .left .three {
+    font-size: 19px;
+    font-weight: 400;
+    color: #555555;
+    padding-left: 120px;
+    padding-top: 20px;
+    font-family: 'Manrope', sans-serif;;    
+}
+.container .head .left .four {
+    font-size: 14px;
+    font-weight: 400;
+    color: #fff;
+    margin-left : 120px;
+    padding: 18px 42px;    
+    margin-top: 50px;
+    width: 238px;
+    height: 57px;
+    border: 1px solid transparent;
+    background-color: #5C8692 ;
+    font-family: 'Manrope', sans-serif;;    
+
+}
+.container .head .right .one {
+    position: absolute;
+    top: 150px;
+    right: 192px;
+}
+.container .head .right .two {
+    position: absolute;
+    top: 120px;
+    right: 120px;
+}
+.container .massage  {
+    width: 100%;
+    height: 650px;
+}
+.container .massage .images {
+    display: flex;
+    width: 380px;
+    height: 288px;
+    padding-left: 120px;
+    padding-top: 100px;
+    gap: 30px;
+}
+.container .massage .images .one {
+    width: 380px;
+    height: 600px;
+    border: 1px solid  transparent;
+}
+.container .massage .images .two {
+    width: 380px;
+    height: 600px;
+    border: 1px solid transparent;
+}
+.container .massage .images .three {
+    width: 380px;
+    height: 600px;
+    border: 1px solid transparent;
+}
+.container .massage .images .one .word {
+    font-size: 26px;
+    font-weight: 400;
+    font-family:  'Playfair Display', serif;;
+    padding-top: 10px;
+}
+.container .massage .images .one .word1 {
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Manrope', sans-serif;;  
+    color: #555555;  
+    padding-top: 10px;
+}
+.container .massage .images .one .word2 {
+    font-size: 18px;
+    font-weight: 400;
+    color: #555555;
+    font-family: 'Manrope', sans-serif;;  
+    width: 157px;
+    height: 57px;
+    border: 1px solid #5C8692;
+    padding: 18px 32px;
+    margin-top: 20px;
+
+}
+.container .massage .images .two .word {
+    font-size: 26px;
+    font-weight: 400;
+    font-family:  'Playfair Display', serif;;
+    padding-top: 10px;
+}
+.container .massage .images .two .word1 {
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Manrope', sans-serif;;  
+    color: #555555;  
+    padding-top: 10px;
+}
+.container .massage .images .two .word2 {
+    font-size: 18px;
+    font-weight: 400;
+    color: #555555;
+    font-family: 'Manrope', sans-serif;;  
+    width: 157px;
+    height: 57px;
+    border: 1px solid #5C8692;
+    padding: 18px 32px;
+    margin-top: 20px;
+
+}
+.container .massage .images .three .word {
+    font-size: 26px;
+    font-weight: 400;
+    font-family:  'Playfair Display', serif;;
+    padding-top: 10px;
+}
+.container .massage .images .three .word1 {
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Manrope', sans-serif;;  
+    color: #555555;  
+    padding-top: 10px;
+}
+.container .massage .images .three .word2 {
+    font-size: 18px;
+    font-weight: 400;
+    color: #555555;
+    font-family: 'Manrope', sans-serif;;  
+    width: 157px;
+    height: 57px;
+    border: 1px solid #5C8692;
+    padding: 18px 32px;
+    margin-top: 20px;
+}
+
+
