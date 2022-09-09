@@ -791,7 +791,7 @@
 }
 .container .blog {
     width: 100%;
-    height: 950px;
+    height: 850px;
 }
 .container .blog .text {
     font-size: 15px;
@@ -929,4 +929,34 @@
     color: #5C8692;
     font-size: 15px;
     font-weight: 400;
+}
+.container .explore {
+    width: 100%;
+    height: 600px;
+    background-color: #1E2C30;
+}
+.container .explore .dad {
+    width: 100%;
+    height: 30%;
+    display: flex;
+    position: relative;
+}
+.container .explore .img {
+    padding-left: 120px;
+    padding-top: 70px;
+}
+.container .explore .img1 {
+    position: absolute;
+    right: 120px;
+    top: 70px;
+}
+.container .explore .main .line {
+    width: 85%;
+    height: .5px;
+    background-color: #fff;
+    margin: auto;
+}
+.container .explore .main .text {
+    padding-left: 120px;
+    padding-top: 20px;
 }
