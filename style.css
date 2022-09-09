@@ -375,3 +375,374 @@
     width: 50%;
     height: 100%;
 }
+.container .customer {
+    width: 100%;
+    height: 655px;
+    background-color: #EBF3F5;
+}
+
+.container .customer .one {
+    font-size: 15px;
+    font-weight: 400;
+    text-align: center;
+    padding-top: 99px;
+    font-family: 'Manrope', sans-serif; ;
+    color: #5C8692;
+}
+
+.container .customer .two {
+    font-size: 45px;
+    font-weight: 400;
+    text-align: center;
+    color: #000;
+    padding-top: 10px;
+}
+
+.container .customer .side {
+    width: 100%;
+    height: 240px;
+    display: flex;
+}
+
+.container .customer .side .left {
+    width: 50%;
+    height: 100%;
+}
+
+.container .customer .side .left .three {
+    width: 600px;
+    height: 188px;
+    border: 1px solid transparent;
+    background-color: #fff;
+    margin-top: 50px;
+    margin-left: 290px;
+    padding-top: 40px;
+    padding-left: 30px;
+    font-size: 19px;
+    font-weight: 400;
+    font-family: 'Manrope', sans-serif;;
+}
+
+.container .customer .side .right {
+    width: 50%;
+    height: 100%;
+}
+.container .customer .side .right .three {
+    width: 600px;
+    height: 188px;
+    border: 1px solid transparent;
+    background-color: #fff;
+    margin-top: 50px;
+    margin-left: 60px;
+    padding-top: 40px;
+    padding-left: 30px;
+    font-size: 19px;
+    font-weight: 400;
+    font-family: 'Manrope', sans-serif;;
+}
+.container .customer .side1 {
+    width: 100%;
+    height: 200px;
+    background-color: #EBF3F5;
+    display: flex;
+}
+.container .customer .side1 .left  {
+    position: relative;
+    width: 50%;
+    height: 100%;
+    display: flex;
+    margin-left: 290px;
+    width: 600px;
+    height: 123px;
+    border: 1px solid transparent;
+    background-color: #1E2C30;
+}
+.container .customer .side1 .right  {
+    position: relative;
+    width: 50%;
+    height: 100%;
+    display: flex;
+    margin-left: 122px;
+    width: 600px;
+    height: 123px;
+    border: 1px solid transparent;
+    background-color: #1E2C30;
+}
+.container .customer .side1 .left .one img {
+    position: absolute;
+    top: 23px;
+    left: 20px;
+}
+.container .customer .side1 .left .two img {
+    position: absolute;
+    left: 110px;
+    top: 30px;
+}
+.container .customer .side1 .left .two .word {
+    position: absolute;
+    font-size: 20px ;
+    font-weight: 400;
+    color: #fff;
+    left: 110px;
+    top: 50px;
+}
+.container .customer .side1 .left .two .word1 {
+    position: absolute;
+    font-size: 14px ;
+    font-weight: 400;
+    color: #fff;
+    left: 110px;
+    top: 80px;
+}
+.container .customer .side1 .left .three img {
+    position: absolute;
+    left: 500px;
+    top: 30px;
+}
+.container .customer .side1 .right .one img {
+    position: absolute;
+    top: 23px;
+    left: 20px;
+}
+.container .customer .side1 .right .two img {
+    position: absolute;
+    left: 110px;
+    top: 30px;
+}
+.container .customer .side1 .right .two .word {
+    position: absolute;
+    font-size: 20px ;
+    font-weight: 400;
+    color: #fff;
+    left: 110px;
+    top: 50px;
+}
+.container .customer .side1 .right .two .word1 {
+    position: absolute;
+    font-size: 14px ;
+    font-weight: 400;
+    color: #fff;
+    left: 110px;
+    top: 80px;
+}
+.container .customer .side1 .right .three img {
+    position: absolute;
+    left: 500px;
+    top: 30px;
+}
+.container .benefits {
+    width: 100%;
+    height: 700px;
+    background-color: #fff;
+}
+.container .benefits .word {
+    font-size: 15px;
+    font-weight: 400;
+    color: #5C8692;
+    text-align: center;
+    padding-top: 70px;
+}
+.container .benefits .word1 {
+    font-size: 45px;
+    font-weight: 400;
+    font-family: 'Playfair Display', serif;;
+    text-align: center;
+    padding-top: 10px;
+}
+.container .benefits .side {
+    width: 100%;
+    height: 300px;
+    display: flex;
+}
+.container .benefits .side .left {
+    width: 35%;
+    height: 100%;
+}
+.container .benefits .side .middle {
+    width: 30%;
+    height: 100%;
+}
+.container .benefits .side .right {
+    width: 35%;
+    height: 100%;
+}
+.container .benefits .side .left .text {
+    width: 85px;
+    height: 85px;
+    border: 1px solid transparent;
+    background-color: #5C8692;
+    margin-left: 200px;
+    margin-top: 70px;
+}
+.container .benefits .side .left .text i {
+    font-size: 70px;
+    padding: 5px;
+    color: #fff;
+}
+.container .benefits .side .left .text1 {
+    font-size: 26px;
+    font-weight: 400;
+    font-family: 'Playfair Display', serif;;
+    padding-left: 200px;
+    padding-top: 10px;
+}
+.container .benefits .side .left .text2 {
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Manrope', sans-serif;;
+    padding-left: 200px;
+    padding-top: 10px;
+}
+.container .benefits .side .middle .text {
+    width: 85px;
+    height: 85px;
+    border: 1px solid transparent;
+    background-color: #5C8692;
+    margin-top: 70px;
+    margin-left: 100px;
+}
+.container .benefits .side .middle .text i {
+    font-size: 70px;
+    padding: 5px;
+    color: #fff;
+}
+.container .benefits .side .middle .text1 {
+    font-size: 26px;
+    font-weight: 400;
+    font-family: 'Playfair Display', serif;;
+    padding-top: 10px;
+    padding-left: 100px;
+}
+.container .benefits .side .middle .text2 {
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Manrope', sans-serif;;
+    padding-top: 10px;
+    padding-left: 100px;
+}
+.container .benefits .side .right .text {
+    width: 85px;
+    height: 85px;
+    border: 1px solid transparent;
+    background-color: #5C8692;
+    margin-top: 70px;
+    margin-left: 100px;
+}
+.container .benefits .side .right .text i {
+    font-size: 70px;
+    padding: 5px;
+    color: #fff;
+}
+.container .benefits .side .right .text1 {
+    font-size: 26px;
+    font-weight: 400;
+    font-family: 'Playfair Display', serif;;
+    padding-top: 10px;
+    padding-left: 100px;
+}
+.container .benefits .side .right .text2 {
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Manrope', sans-serif;;
+    padding-top: 10px;
+    padding-left: 100px;
+}
+.container .benefits .side1 {
+    width: 100%;
+    height: 300px;
+    display: flex;
+}
+.container .benefits .side1 .left {
+    width: 35%;
+    height: 100%;
+}
+.container .benefits .side1 .middle {
+    width: 30%;
+    height: 100%;
+}
+.container .benefits .side1 .right {
+    width: 35%;
+    height: 100%;
+}
+.container .benefits .side1 .left .text {
+    width: 85px;
+    height: 85px;
+    border: 1px solid transparent;
+    background-color: #5C8692;
+    margin-top: 70px;
+    margin-left: 200px;
+}
+.container .benefits .side1 .left .text i {
+    font-size: 70px;
+    padding: 5px;
+    color: #fff;
+}
+.container .benefits .side1 .left .text1 {
+    font-size: 26px;
+    font-weight: 400;
+    font-family: 'Playfair Display', serif;;
+    padding-top: 10px;
+    padding-left: 200px;
+}
+.container .benefits .side1 .left .text2 {
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Manrope', sans-serif;;
+    padding-top: 10px;
+    padding-left: 200px;
+}
+.container .benefits .side1 .middle .text {
+    width: 85px;
+    height: 85px;
+    border: 1px solid transparent;
+    background-color: #5C8692;
+    margin-top: 70px;
+    margin-left: 100px;
+}
+.container .benefits .side1 .middle .text i {
+    font-size: 70px;
+    padding: 5px;
+    color: #fff;
+}
+.container .benefits .side1 .middle .text1 {
+    font-size: 26px;
+    font-weight: 400;
+    font-family: 'Playfair Display', serif;;
+    padding-top: 10px;
+    padding-left: 100px;
+}
+.container .benefits .side1 .middle .text2 {
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Manrope', sans-serif;;
+    padding-top: 10px;
+    padding-left: 100px;
+}
+.container .benefits .side1 .right .text {
+    width: 85px;
+    height: 85px;
+    border: 1px solid transparent;
+    background-color: #5C8692;
+    margin-top: 70px;
+    margin-left: 100px;
+}
+.container .benefits .side1 .right .text i {
+    font-size: 70px;
+    padding: 5px;
+    color: #fff;
+}
+.container .benefits .side1 .right .text1 {
+    font-size: 26px;
+    font-weight: 400;
+    font-family: 'Playfair Display', serif;;
+    padding-top: 10px;
+    padding-left: 100px;
+}
+.container .benefits .side1 .right .text2 {
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Manrope', sans-serif;;
+    padding-top: 10px;
+    padding-left: 100px;
+}
+    
