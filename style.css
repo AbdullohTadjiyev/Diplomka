@@ -375,160 +375,145 @@
     width: 50%;
     height: 100%;
 }
-.container .customer {
+.container .box {
     width: 100%;
     height: 655px;
     background-color: #EBF3F5;
 }
-
-.container .customer .one {
+.container .box .p {
     font-size: 15px;
     font-weight: 400;
+    font-family: 'Manrope', sans-serif;
+    color: #5C8692;
     text-align: center;
     padding-top: 99px;
-    font-family: 'Manrope', sans-serif; ;
-    color: #5C8692;
 }
-
-.container .customer .two {
+.container .box .p1 {
     font-size: 45px;
     font-weight: 400;
+    font-family: 'Playfair Display', serif;
     text-align: center;
-    color: #000;
-    padding-top: 10px;
+    padding-top: 5px;
 }
-
-.container .customer .side {
-    width: 100%;
-    height: 240px;
+.container .box .side {
     display: flex;
+    width: 100%;
+    height: 70%;
+    margin-top: 100px;
 }
-
-.container .customer .side .left {
+.container .box .side .left {
     width: 50%;
     height: 100%;
 }
-
-.container .customer .side .left .three {
-    width: 600px;
-    height: 188px;
+.container .box .side .left .p2 {
+    width: 80%;
+    height: 55%;
     border: 1px solid transparent;
-    background-color: #fff;
-    margin-top: 50px;
     margin-left: 10%;
-    padding-top: 40px;
-    padding-left: 30px;
+}
+.container .box .side .left .p2 p {
+    width: 100%;
+    height: 50%;
     font-size: 19px;
     font-weight: 400;
-    font-family: 'Manrope', sans-serif;;
+    font-family: 'Manrope', sans-serif;
+    padding: 10px 20px;
+}
+.container .box .side .left .p2 .img {
+    width: 100%;
+    height: 50%;
+    background-color: #1E2C30;
+    display: flex;
+    position: relative;
+}
+.container .box .side .right {
+    width: 50%;
+    height: 100%;
+}
+.container .box .side .right .p2 {
+    width: 80%;
+    height: 55%;
+    border: 1px solid transparent;
+    margin-left: 10%;
+}
+.container .box .side .left .p2 .img .p3 {
+    padding: 22px  30px;
+}
+.container .box .side .left .p2 .img .p4  img {
+    position: absolute;
+    left: 120px;
+    top: 20px;
+}
+.container .box .side .left .p2 .img .p4 .p6  {
+    position: absolute;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Manrope', sans-serif;
+    color: #fff;
+    left: 120px;
+    top: 40px;
+}
+.container .box .side .left .p2 .img .p4 span {
+    position: absolute;
+    font-size: 15px;
+    font-weight: 400;
+    font-family: 'Manrope', sans-serif;
+    color: #fff;
+    left: 120px;
+    top: 70px;
+}
+.container .box .side .right .p2 p {
+    width: 100%;
+    height: 50%;
+    font-size: 19px;
+    font-weight: 400;
+    font-family: 'Manrope', sans-serif;
+    padding: 10px 20px;
+}
+.container .box .side .left .p2 .img  .p5 {
+    position: absolute;
+    top: 20%;
+    left: 80%;
 }
 
-.container .customer .side .right {
-    width: 50%;
-    height: 100%;
-}
-.container .customer .side .right .three {
-    width: 600px;
-    height: 188px;
-    border: 1px solid transparent;
-    background-color: #fff;
-    margin-top: 50px;
-    margin-left: 60px;
-    padding-top: 40px;
-    padding-left: 30px;
-    font-size: 19px;
-    font-weight: 400;
-    font-family: 'Manrope', sans-serif;;
-}
-.container .customer .side1 {
+.container .box .side .right .p2 .img {
     width: 100%;
-    height: 200px;
-    background-color: #EBF3F5;
-    display: flex;
-}
-.container .customer .side1 .left  {
-    position: relative;
-    width: 50%;
-    height: 100%;
-    display: flex;
-    margin-left: 5%;
-    width: 600px;
-    height: 123px;
-    border: 1px solid transparent;
+    height: 50%;
     background-color: #1E2C30;
-}
-.container .customer .side1 .right  {
-    position: relative;
-    width: 50%;
-    height: 100%;
     display: flex;
-    margin-left: 6.8%;
-    width: 600px;
-    height: 123px;
-    border: 1px solid transparent;
-    background-color: #1E2C30;
+    position: relative;
 }
-.container .customer .side1 .left .one img {
-    position: absolute;
-    top: 23px;
-    left: 20px;
+
+.container .box .side .right .p2 .img .p3 {
+    padding: 22px  30px;
 }
-.container .customer .side1 .left .two img {
+.container .box .side .right .p2 .img .p4  img {
     position: absolute;
-    left: 110px;
-    top: 30px;
+    left: 120px;
+    top: 20px;
 }
-.container .customer .side1 .left .two .word {
+.container .box .side .right .p2 .img .p4 .p6  {
     position: absolute;
-    font-size: 20px ;
+    font-size: 20px;
     font-weight: 400;
+    font-family: 'Manrope', sans-serif;
     color: #fff;
-    left: 110px;
-    top: 50px;
+    left: 120px;
+    top: 40px;
 }
-.container .customer .side1 .left .two .word1 {
+.container .box .side .right .p2 .img .p4 span {
     position: absolute;
-    font-size: 14px ;
+    font-size: 15px;
     font-weight: 400;
+    font-family: 'Manrope', sans-serif;
     color: #fff;
-    left: 110px;
-    top: 80px;
+    left: 120px;
+    top: 70px;
 }
-.container .customer .side1 .left .three img {
+.container .box .side .right .p2 .img  .p5 {
     position: absolute;
-    left: 500px;
-    top: 30px;
-}
-.container .customer .side1 .right .one img {
-    position: absolute;
-    top: 23px;
-    left: 20px;
-}
-.container .customer .side1 .right .two img {
-    position: absolute;
-    left: 110px;
-    top: 30px;
-}
-.container .customer .side1 .right .two .word {
-    position: absolute;
-    font-size: 20px ;
-    font-weight: 400;
-    color: #fff;
-    left: 110px;
-    top: 50px;
-}
-.container .customer .side1 .right .two .word1 {
-    position: absolute;
-    font-size: 14px ;
-    font-weight: 400;
-    color: #fff;
-    left: 110px;
-    top: 80px;
-}
-.container .customer .side1 .right .three img {
-    position: absolute;
-    left: 500px;
-    top: 30px;
+    top: 20%;
+    left: 80%;
 }
 .container .benefits {
     width: 100%;
