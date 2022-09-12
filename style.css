@@ -356,37 +356,7 @@
     padding-top: 20px;
     font-family:  'Playfair Display', serif;;
 }
-.container .srervice .side {
-    width: 100%;
-    height: 650px;
-    display: flex;
-}
-.container .srervice .side .left  {
-    width: 50%;
-    height: 100%;
-    padding-left: 123px;
-    padding-top: 70px;
-}
-.container .srervice .side .right  {
-    width: 50%;
-    height: 100%;
-    padding-left: 17px;
-    padding-top: 630px;
-}
-.container .srervice1 {
-    width: 100%;
-    height: 700px;
-    display: flex;
-}
-.container .srervice1 .left {
-    width: 50%;
-    height: 100%;
-    padding-left: 635px;
-}
-.container .srervice1 .right {
-    width: 50%;
-    height: 100%;
-}
+
 .container .box {
     width: 100%;
     height: 655px;
@@ -755,10 +725,57 @@
 .container .claim .right {
     width: 50%;
     height: 100%;
+} 
+.container .claim .right .main  {
+    width: 80%;
+    height: 75%;
+    border: 1px solid transparent;
+    background-color: #fff;
+    margin-top: 110px;
+    margin-right: 120px;   
 }
-.container .claim .right img {
-    padding-top: 110px;
-    padding-right: 120px;
+.container .claim .right .main .one {
+    width: 80%;
+    height: 10%;
+    margin: auto;
+    margin-top: 50px;
+    border: 2px solid #5C8692;
+}
+.container .claim .right .main .two {
+    width: 80%;
+    height: 10%;
+    margin: auto;
+    margin-top: 20px;
+    border: 2px solid #5C8692;
+}
+.container .claim .right .main .three {
+    width: 80%;
+    height: 10%;
+    margin: auto;
+    margin-top: 20px;
+    border: 2px solid #5C8692;
+}
+.container .claim .right .main .four {
+    width: 80%;
+    height: 10%;
+    margin: auto;
+    margin-top: 20px;
+    border: 2px solid #5C8692;
+}
+.container .claim .right .main .five {
+    width: 80%;
+    height: 20%;
+    margin: auto;
+    margin-top: 20px;
+    border: 2px solid #5C8692;
+}
+.container .claim .right .main .six {
+    width: 80%;
+    height: 10%;
+    margin: auto;
+    margin-top: 20px;
+    border: 2px solid #5C8692;
+    background-color: #5C8692;
 }
 .container .claim .left .text {
     font-size: 15px;
@@ -783,8 +800,74 @@
     color: #555555;
 }
 .container .claim .left .text3 {
-    padding-left: 120px;
-    padding-top: 20px;
+    width: 70%;
+    height: 20%;
+    border: 1px solid #000;
+    margin-left: 120px;
+    margin-top: 70px;
+    display: flex;
+}
+.container .claim .left .text3 .left {
+    width: 60%;
+    height: 100%;
+    background-color:#fff;
+}
+.container .claim .left .text3 .right {
+    width: 40%;
+    height: 100%;
+    background-color: #1E2C30;
+}
+.container .claim .left .text3 .left .one {
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Manrope', sans-serif;;
+    padding-left: 40px;
+    padding-top: 30px;
+}
+.container .claim .left .text3 .left .one img {
+    width: 40px;
+    height: 10px;
+}
+.container .claim .left .text3 .left .two img {
+    width: 40px;
+    height: 10px;
+}
+.container .claim .left .text3 .left .one span {
+    padding-left: 45px;
+
+}
+
+.container .claim .left .text3 .left .two {
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Manrope', sans-serif;;
+    padding-left: 40px;
+    padding-top: 30px;
+}
+.container .claim .left .text3 .left .two span {
+    padding-left: 45px;
+}
+.container .claim .left .text3 .right .one {
+    text-align: center;
+    padding-top: 22px;
+    font-size: 15px;
+    font-weight: 400;
+    font-family: 'Manrope', sans-serif;;
+    color: #fff;
+}
+.container .claim .left .text3 .right .two {
+    text-align: center;
+    font-size: 65px;
+    font-weight: 400;
+    font-family: 'Manrope', sans-serif;;
+    color: #fff;
+}
+.container .claim .left .text3 .right .three {
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Manrope', sans-serif;;
+    color: #fff;
 }
 .container .blog {
     width: 100%;
