@@ -136,27 +136,39 @@
     height: 650px;
 }
 .container .massage .images {
+    width: 85%;
+    height: 500px;
+    margin: auto;
     display: flex;
-    width: 380px;
-    height: 288px;
-    padding-left: 120px;
     padding-top: 100px;
     gap: 30px;
 }
 .container .massage .images .one {
-    width: 380px;
+    width: 33%;
     height: 600px;
     border: 1px solid  transparent;
 }
+.container .massage .images .one  img {
+    width: 100%;
+    height: 288px;
+}
 .container .massage .images .two {
-    width: 380px;
+    width: 33%;
     height: 600px;
     border: 1px solid transparent;
 }
+.container .massage .images .two  img {
+    width: 100%;
+    height: 288px;
+}
 .container .massage .images .three {
-    width: 380px;
+    width: 33%;
     height: 600px;
     border: 1px solid transparent;
+}
+.container .massage .images .three  img {
+    width: 100%;
+    height: 288px;
 }
 .container .massage .images .one .word {
     font-size: 26px;
@@ -930,18 +942,92 @@
     padding-left: 120px;
     padding-top: 70px;
 }
-.container .explore .img1 {
+.container .dad  .img1 {
     position: absolute;
     right: 120px;
-    top: 70px;
+    top: 75px;
 }
-.container .explore .main .line {
+.container .explore  .line {
     width: 85%;
     height: .5px;
     background-color: #fff;
     margin: auto;
+    margin-bottom: 50px;
 }
-.container .explore .main .text {
+.container .explore .main {
+    width: 100%;
+    height: 50%;
+    display: flex;
+}
+.container .explore .main .left {
+    width: 40%;
+    height: 100%;
+    display: flex;
+}
+.container .explore .main .right {
+    width: 60%;
+    height: 100%;
+    display: flex;
+}
+.container .explore .main .left .one {
+    width: 50%;
+    height: 100%;
+}
+.container .explore .main .left .two {
+    width: 50%;
+    height: 100%;
+}
+.container .explore .main .left .one li {
+    font-size: 17px;
+    font-weight: 400;
+    font-family: 'Manrope', sans-serif;;
+    color: #fff;
     padding-left: 120px;
+    padding-top: 20px;   
+}
+.container .explore .main .left .two li {
+    font-size: 17px;
+    font-weight: 400;
+    font-family: 'Manrope', sans-serif;;
+    color: #fff;
+    padding-left: 80px;
     padding-top: 20px;
+    
+}
+.container .explore .main .right .one {
+    width: 50%;
+    height: 1005;
+}
+.container .explore .main .right .two {
+    width: 50%;
+    height: 1005;
+}
+.container .explore .main .right .one li {
+    font-size: 17px;
+    font-weight: 400;
+    font-family: 'Manrope', sans-serif;;
+    color: #fff;
+    padding-left: 120px;
+    padding-top: 30px;   
+}
+.container .explore .main .right .two li {
+    font-size: 17px;
+    font-weight: 400;
+    font-family: 'Manrope', sans-serif;;
+    color: #fff;
+    padding-left: 120px;
+    padding-top: 30px;   
+}
+.container .explore .last {
+    width: 100%;
+    height: 13%;
+    background-color: #111E22;
+}
+.container .explore .last p {
+    font-size: 15px;
+    font-weight: 400;
+    font-family: 'Manrope', sans-serif;;
+    color: #fff;
+    text-align: center;
+    padding-top: 30px;
 }
